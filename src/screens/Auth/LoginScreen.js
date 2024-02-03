@@ -1,4 +1,4 @@
-import {Button, SafeAreaView, StyleSheet, Text, View,ActivityIndicator} from 'react-native';
+import {Button, SafeAreaView, StyleSheet, Text, View,ActivityIndicator,Image} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {
   AuthNavigator,
@@ -106,7 +106,7 @@ export default function LoginScreen() {
       setToggle(false);
     }
   };
-  console.log('toggle => ',   StyleSheets());
+  // console.log('toggle => ',   StyleSheets());
   return (
     <MainContainer style={{backgroundColor: THEME_COLOR}}>
       <View
@@ -117,8 +117,8 @@ export default function LoginScreen() {
           borderBottomLeftRadius: (width + 270) / 2,
           borderBottomRightRadius: (width + 270) / 2,
         }}></View>
-      <View style={{width: '30%', position: 'absolute'}}>
-        {/* <Image source={require('../assets/images/status_blue.png')} style={{width:'100%',height:150,}} /> */}
+      <View style={[{width: '100%',backgroundColor:'transparent',position: 'absolute',top:100},globalStyles.flexBox]}>
+        <Image source={require('../../assets/akhilsystems_transparent_logo.png')} resizeMode='contain' style={{width:width,height:100,backgroundColor:'transparent'}} />
       </View>
       <ProfileContainer
         style={[{marginTop: -200, width: '85%'}, globalStyles.flexBox]}>

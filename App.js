@@ -12,6 +12,7 @@ import { useDispatch } from 'react-redux';
 import { setIsAdmin, setIsAuthenticated } from './src/store/modules/UserDetailsSlice'
 import { LogBox } from 'react-native';
 import { MMKVProvider } from './src/context/MMKVContext'
+import SplashScreen from 'react-native-splash-screen'
 // import PushNotification from 'react-native-push-notification';
 
 LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
@@ -31,6 +32,7 @@ const App =()=> {
 
   useEffect(() => {
     getUserDetails();
+    SplashScreen.hide();
   }, []);
 
   const getUserDetails = () => {

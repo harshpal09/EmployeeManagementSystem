@@ -3,10 +3,11 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeEmployee, AttendanceTracking, EmployeeDetails, Profile } from '../../export';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
-import { THEME_COLOR } from '../components/Common/Styles';
+import { THEME_COLOR, width } from '../components/Common/Styles';
 import { View } from 'react-native-reanimated/lib/typescript/Animated';
 import { useMMKV } from '../context/MMKVContext';
 import { DARK_THEME_COLOR, DARK_THEME_DARK_TEXT_COLOR, LIGHT_THEME_BACKGROUND_COLOR } from '../themes/Theme';
+import { Image } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
@@ -25,6 +26,14 @@ const EmployeeNavigator = () => {
           headerTitleStyle:{color: 'white'},
           tabBarIcon: ({ color, size }) => (
             <FontAwesome5 name="home" color={color} size={size} />
+          ),
+          headerLeft: () => (
+            // Add your image component here
+            <Image
+              source={require('../assets/akhilsystems_favicon_white.png')}
+              resizeMode='contain'
+              style={{width:40, height: 40, marginLeft: 10 ,tintColor:'white'}}
+            />
           ),
         }}
       />

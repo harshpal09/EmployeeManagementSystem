@@ -12,7 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3BAA33DA2B6CF6E30056E7C8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 3BAA33D92B6CF6E30056E7C8 /* Fonts */; };
+		3B2D81D12B6EDE4100885696 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 3B2D81D02B6EDE4100885696 /* Fonts */; };
 		7699B88040F8A987B510C191 /* libPods-EmployeeManagementSystem-EmployeeManagementSystemTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-EmployeeManagementSystem-EmployeeManagementSystemTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,8 +38,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EmployeeManagementSystem/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EmployeeManagementSystem/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-EmployeeManagementSystem-EmployeeManagementSystemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmployeeManagementSystem-EmployeeManagementSystemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2D81D02B6EDE4100885696 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
+		3B2D81D22B6EE10300885696 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-EmployeeManagementSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeManagementSystem.debug.xcconfig"; path = "Target Support Files/Pods-EmployeeManagementSystem/Pods-EmployeeManagementSystem.debug.xcconfig"; sourceTree = "<group>"; };
-		3BAA33D92B6CF6E30056E7C8 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-EmployeeManagementSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeManagementSystem.release.xcconfig"; path = "Target Support Files/Pods-EmployeeManagementSystem/Pods-EmployeeManagementSystem.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-EmployeeManagementSystem-EmployeeManagementSystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeManagementSystem-EmployeeManagementSystemTests.debug.xcconfig"; path = "Target Support Files/Pods-EmployeeManagementSystem-EmployeeManagementSystemTests/Pods-EmployeeManagementSystem-EmployeeManagementSystemTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-EmployeeManagementSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmployeeManagementSystem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +119,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				3BAA33D92B6CF6E30056E7C8 /* Fonts */,
+				3B2D81D02B6EDE4100885696 /* Fonts */,
+				3B2D81D22B6EE10300885696 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* EmployeeManagementSystem */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* EmployeeManagementSystemTests */,
@@ -244,7 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BAA33DA2B6CF6E30056E7C8 /* Fonts in Resources */,
+				3B2D81D12B6EDE4100885696 /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

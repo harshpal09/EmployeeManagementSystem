@@ -185,7 +185,7 @@ export  const StyleSheets = () =>{
   // });
 }
 export const BASE_URL = '';
-export const THEME_COLOR = '#0080FF';
+export const THEME_COLOR = '#005EBD';
 export const LIGHT_BLUE = '#5481ff';
 export const LIGHT_BLUE_BACKGROUND = '#d7dffc';
 export const ORANGE_COLOR = '#FF691F';
