@@ -1,0 +1,7 @@
+export {default as HomeAdmin} from './src/screens/Admin/HomeAdmin'
+export {default as AddEditEmployee} from './src/screens/Admin/AddEditEmployee'
+export {default as AttendanceTrackingAdmin} from './src/screens/Admin/AttendanceTrackingAdmin'
+export {default as HomeEmployee} from './src/screens/Employee/HomeEmployee'
+export {default as AttendanceTracking} from './src/screens/Employee/AttendanceTracking'
+export {default as EmployeeDetails} from './src/screens/Employee/EmployeeDetails'
+export {default as Profile} from './src/components/Common/Profile'

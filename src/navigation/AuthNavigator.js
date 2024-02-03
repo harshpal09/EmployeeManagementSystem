@@ -1,12 +1,19 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+// AuthNavigator.js
 
-export default function AuthNavigator() {
+import React from 'react';
+import { createStackNavigator } from '@react-navigation/stack';
+import LoginScreen from '../screens/Auth/LoginScreen';
+import { HomeAdmin } from '../../export';
+
+const Stack = createStackNavigator();
+
+const AuthNavigator = () => {
   return (
-    <View>
-      <Text>AuthNavigator</Text>
-    </View>
-  )
-}
+    <Stack.Navigator>
+      <Stack.Screen name="Login" options={{headerShown:false}} component={LoginScreen} />
+      <Stack.Screen name="home" component={HomeAdmin} />
+    </Stack.Navigator>
+  );
+};
 
-const styles = StyleSheet.create({})
+export default AuthNavigator;
