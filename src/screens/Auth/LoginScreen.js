@@ -1,4 +1,4 @@
-import {Button, SafeAreaView, StyleSheet, Text, View,ActivityIndicator,Image} from 'react-native';
+import {Button, SafeAreaView, StyleSheet, Text, View,ActivityIndicator,Image, Platform} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {
   AuthNavigator,
@@ -81,6 +81,9 @@ export default function LoginScreen() {
       return;
     }
     try {
+
+
+      
       let isAdmin = false;
       if (email.toLowerCase().includes('admin')) {
         isAdmin = true;
@@ -117,7 +120,7 @@ export default function LoginScreen() {
           borderBottomLeftRadius: (width + 270) / 2,
           borderBottomRightRadius: (width + 270) / 2,
         }}></View>
-      <View style={[{width: '100%',backgroundColor:'transparent',position: 'absolute',top:100},globalStyles.flexBox]}>
+      <View style={[{width: '100%',backgroundColor:'transparent',position: 'absolute',top:Platform.OS == 'android'? 30:100},globalStyles.flexBox]}>
         <Image source={require('../../assets/akhilsystems_transparent_logo.png')} resizeMode='contain' style={{width:width,height:100,backgroundColor:'transparent'}} />
       </View>
       <ProfileContainer

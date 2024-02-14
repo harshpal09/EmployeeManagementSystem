@@ -1,0 +1,141 @@
+{
+  "attendence": [
+    {"name":"employee2","date": "2024-02-01", "time": "09:30 AM", "status": "absent"},
+    {"name":"employee2","date": "2024-02-02", "time": "10:00 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-03", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee2","date": "2024-02-04", "time": "10:30 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-05", "time": "10:15 AM", "status": "absent"},
+    {"name":"employee2","date": "2024-02-06", "time": "11:00 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-07", "time": "09:40 AM", "status": "absent"},
+    {"name":"employee2","date": "2024-02-08", "time": "09:35 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-09", "time": "09:30 AM", "status": "absent"},
+    {"name":"employee2","date": "2024-02-10", "time": "10:25 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-11", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee2","date": "2024-02-12", "time": "10:00 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-13", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-14", "time": "10:20 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-15", "time": "10:05 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-16", "time": "09:40 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-17", "time": "10:10 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-18", "time": "09:25 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-19", "time": "09:40 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-20", "time": "10:05 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-21", "time": "09:40 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-22", "time": "09:35 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-23", "time": "10:00 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-24", "time": "10:30 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-25", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-26", "time": "10:10 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-27", "time": "09:55 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-28", "time": "09:40 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-29", "time": "10:30 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-01", "time": "09:30 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-02", "time": "10:00 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-03", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-04", "time": "10:30 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-05", "time": "10:15 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-06", "time": "11:00 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-07", "time": "09:40 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-08", "time": "09:35 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-09", "time": "09:30 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-10", "time": "10:25 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-11", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-12", "time": "10:00 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-13", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-14", "time": "10:20 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-15", "time": "10:05 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-16", "time": "09:40 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-17", "time": "10:10 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-18", "time": "09:25 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-19", "time": "09:40 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-20", "time": "10:05 AM", "status": "present"},
+    {"name":"employee1","date": "2024-02-21", "time": "09:40 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-22", "time": "09:35 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-23", "time": "10:00 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-24", "time": "10:30 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-25", "time": "09:45 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-26", "time": "10:10 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-27", "time": "09:55 AM", "status": "absent"},
+    {"name":"employee1","date": "2024-02-28", "time": "09:40 AM", "status": "present"},
+    {"name":"employee2","date": "2024-02-29", "time": "10:30 AM", "status": "absent"}
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "Employee 1",
+      "role": "Employee",
+      "details": {
+        "email": "employee1@example.com",
+        "phone": "123-456-7890"
+      },
+      "attendance": []
+    },
+    {
+      "id": "2",
+      "name": "Employee 2",
+      "role": "Employee",
+      "details": {
+        "email": "employee2@example.com",
+        "phone": "987-654-3210"
+      },
+      "attendance": []
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "role": "Admin",
+      "details": {
+        "email": "admin@example.com",
+        "phone": "555-123-4567"
+      },
+      "attendance": []
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "username": "admin@example.com",
+      "password": "admin",
+      "role": "Admin"
+    },
+    {
+      "id": "2",
+      "username": "employee1@example.com",
+      "password": "employee1",
+      "role": "Employee"
+    },
+    {
+      "id": "3",
+      "username": "employee2@example.com",
+      "password": "employee2",
+      "role": "Employee"
+    },
+    {
+      "id": "f6e4",
+      "username": "sgj",
+      "password": "dfghjk"
+    },
+    {
+      "id": "6438",
+      "username": "dfgh",
+      "password": "cfghjk"
+    },
+    {
+      "id": "1b7c",
+      "username": "asdg",
+      "password": "sdfgh"
+    },
+    {
+      "id": "bcc0",
+      "username": "employee1@example.com",
+      "password": "employee1"
+    },
+    {
+      "id": "cc5d",
+      "username": "employee1@example.com",
+      "password": "employee1"
+    }
+  ]
+}

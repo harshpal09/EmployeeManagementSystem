@@ -191,7 +191,7 @@ export default function Profile() {
               size={25}
             />
           </TouchableOpacity>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             activeOpacity={0.9}
             style={[
               globalStyles.profileHeadings,
@@ -208,17 +208,15 @@ export default function Profile() {
                 size={25}
                 style={{color:theme.isDark ? DARK_THEME_DARK_TEXT_COLOR:THEME_COLOR, marginHorizontal: 10}}
               />
-              {/* <Text style={[globalStyles.profileHeadingText]}>Logout</Text> */}
               <DarkTextLarge style={{color: theme.isDark ? DARK_THEME_DARK_TEXT_COLOR:THEME_COLOR}}>Enable {theme.isDark ? "Light":"Dark"} Theme</DarkTextLarge>
             </View>
-            {/* <Text style={globalStyles.profileHeadingText}><MaterialIcons name='logout' size={20} />Logout</Text> */}
             <MaterialIcons
               style={globalStyles.profileIcons}
               name="navigate-next"
               color={theme.isDark ? DARK_THEME_DARK_TEXT_COLOR:THEME_COLOR}
               size={25}
             />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </ProfileContainer>
     </MainContainer>
